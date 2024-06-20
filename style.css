@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    background-image: url(image/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 25s;
+}
+
+@keyframes example {
+    0% {
+        background-image: url(image/img2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(image/img3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(image/img4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+h1{
+    color: wheat;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+p{
+    font-weight: 600;
+}
+
+#first{
+    margin-top: 10px;
+    color: #ffcd5d;
+}
+#sec{
+    color: #51df70;
+}
+#third{
+    color: #025f70;
+}
+ul{
+    text-align: left;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 8%;
+    margin-bottom: 8px;
+    background: #4eb9cd;
+}
+
+li:hover{
+    opacity: 0.5;
+}
+
+li>button{
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    font-weight: 800;
+}
+input{
+    border-radius: 5px;
+    min-width: 65%;
+    padding: 5px;
+    border: none;
+}
+.done{
+    background: #51df70;
+    color: lawngreen;
+}
+.delete{
+    display: none;
+}
